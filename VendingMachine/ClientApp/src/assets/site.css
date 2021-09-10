@@ -1,0 +1,75 @@
+body {
+    font-family: Calibri;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid black;
+}
+
+input.red {
+    border: 2px solid red;
+}
+
+.home {
+    padding: 2rem;
+}
+
+.currency-acceptor > div {
+    display: flex;
+}
+
+    .currency-acceptor .input-container {
+        display: flex;
+        flex-direction: column;
+        padding-right: 1rem;
+    }
+
+
+.product-display > div {
+    display: flex;
+}
+
+    .product-display > div > * {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .product-display .input-container {
+        display: flex;
+        flex-direction: column;
+        padding-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+        .product-display .input-container p {
+            margin-top: 0;
+        }
+
+        .product-display .input-container label {
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+.product-display .order-total-container span {
+    font-size: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+form {
+    max-width: 1000px;
+}
+
+form > button {
+    margin-top: 2rem;
+    float: right;
+    cursor: pointer;
+}
