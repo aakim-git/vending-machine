@@ -146,7 +146,7 @@ function App() {
                         }
                     }
 
-                    modalMessage += "for $" + calculateTotalCost() + ". ";
+                    modalMessage += "for $" + (calculateTotalCost() / 100).toFixed(2) + ". ";
 
                     // Display change.
                     if (responseJson && Object.keys(responseJson).length > 0) {
